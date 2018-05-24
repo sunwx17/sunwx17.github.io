@@ -8,6 +8,12 @@
 	100% {opacity:1;}
 }
 
+@font-face
+{
+font-family: optima;
+src: url('font/optimal_bold.ttf');
+}
+
 * {
     cursor: url("/image/cursur/Arrow.cur"),auto!important
 }
@@ -72,6 +78,7 @@ a,button {
 .center-word{
 	font-size: 80px;
 	font-weight: 700;
+	font-family: optima;
 	color: #FFFFFF;
 	font-family: Microsoft Yahei；
 }
