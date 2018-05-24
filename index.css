@@ -8,6 +8,21 @@
 	100% {opacity:1;}
 }
 
+* {
+    cursor: url("/image/cursur/Arrow.cur"),auto!important
+}
+
+a,button {
+    cursor: url("/image/cursur/Help.cur"),auto!important
+}
+
+:active{
+    cursor: url("/image/cursur/Hand.cur"),auto!important
+}
+:visited{
+    cursor: url("/image/cursur/Help.cur"),auto!important
+}
+
 
 .index-background{
 	z-index: 0;
