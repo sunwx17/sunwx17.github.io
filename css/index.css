@@ -11,7 +11,7 @@
 @font-face
 {
 font-family: optima;
-src: url('font/optimal_bold.ttf');
+src: url('/font/optimal_bold.ttf');
 }
 
 * {
