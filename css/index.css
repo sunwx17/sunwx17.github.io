@@ -103,7 +103,7 @@ a,button {
     text-shadow: 1px 0 #ff3f1a;
 }
 
-.center-word:before:hover{
+.center-word:hover:before{
 	text-shadow: 4px 0 #ff3f1a;
     animation: glitch-loop-1 .8s infinite ease-in-out alternate-reverse;
 }
