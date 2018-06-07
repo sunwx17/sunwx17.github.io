@@ -103,9 +103,19 @@ a,button {
     text-shadow: 1px 0 #ff3f1a;
 }
 
-.center-word:before{
+.center-word:hover:before{
 	text-shadow: 4px 0 #ff3f1a;
     animation: glitch-loop-1 .8s infinite ease-in-out alternate-reverse;
+}
+
+.center-word:after{
+    left: 1px;
+    text-shadow: -1px 0 #00a7e0;
+}
+
+.center-word:hover:after{
+    text-shadow: -5px 0 #00a7e0;
+    animation: glitch-loop-2 .8s infinite ease-in-out alternate-reverse;
 }
 
 .center-word:before,.center-word:after{
