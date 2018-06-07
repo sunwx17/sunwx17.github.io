@@ -82,7 +82,7 @@ a,button {
 
 .center{
 	position: relative;
-    top: 30%;
+    top: 40%;
     left: calc(50% - 300px);
     text-align: center;
     max-width: 600px;
