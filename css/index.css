@@ -97,3 +97,13 @@ a,button {
 	font-family: optima;
 	color: #FFFFFF;
 }
+
+.center-word:before{
+	left: -1px;
+    text-shadow: 1px 0 #ff3f1a;
+}
+
+.center-word:before:hover{
+	text-shadow: 4px 0 #ff3f1a;
+    animation: glitch-loop-1 .8s infinite ease-in-out alternate-reverse;
+}
