@@ -76,8 +76,8 @@
 .center-word:after {
   content: attr(data-text);
   position: absolute;
-  left: 2px;
-  text-shadow: -1px 0 red;
+  left: calc(50% - 262px);
+  text-shadow: -2px 0 red;
   top: 0;
   color: white;
   background: black;
@@ -154,8 +154,8 @@
 .center-word:before {
   content: attr(data-text);
   position: absolute;
-  left: -2px;
-  text-shadow: 1px 0 blue;
+  left: calc(50% - 268px);
+  text-shadow: 2px 0 blue;
   top: 0;
   color: white;
   background: black;
@@ -263,4 +263,3 @@ a,button {
 	font-family: optima;
 	color: #FFFFFF;
 }
-
