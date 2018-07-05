@@ -73,6 +73,11 @@
     clip: rect(62px, 9999px, 100px, 0);
   }
 }
+
+.center-word:after{
+	display:none;
+}
+
 .center-word:after:hover {
   content: attr(data-text);
   position: absolute;
@@ -151,6 +156,11 @@
     clip: rect(76px, 9999px, 29px, 0);
   }
 }
+
+.center-word:before{
+	display:none;
+}
+
 .center-word:before:hover {
   content: attr(data-text);
   position: absolute;
