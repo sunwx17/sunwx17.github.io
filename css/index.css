@@ -157,6 +157,7 @@
 .center-word:after{
 	content: attr(data-text);
 	position: absolute;
+    left: calc(50% - 265px);
 }
 
 .center-word:hover:before {
