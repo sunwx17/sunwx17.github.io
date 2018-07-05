@@ -157,13 +157,14 @@
   }
 }
 
-.center-word:before{
+.center-word:before,.center-word:after{
 	content: attr(data-text);
 	position: absolute;
+	width:100%;
     left: calc(50% - 265px);
 }
 
-.center-word:before:hover {
+.center-word:hover:before {
   left: calc(50% - 268px);
   text-shadow: 2px 0 blue;
   top: 0;
