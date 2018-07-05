@@ -342,7 +342,31 @@
     background-color: #827ae1;
     border-color: #827ae1;
     color: #5246e2; }
-
+	
+.button-green,
+.button-green-flat {
+  background-color: #24936EC0;
+  border-color: #24936EC0;
+  color: #FFF; }
+  .button-green:visited,
+  .button-green-flat:visited {
+    color: #FFF; }
+  .button-green:hover, .button-green:focus,
+  .button-green-flat:hover,
+  .button-green-flat:focus {
+    background-color: #A8D8B9C0;
+    border-color: #A8D8B9C0;
+    color: #FFF; }
+  .button-green:active, .button-green.active, .button-green.is-active,
+  .button-green-flat:active,
+  .button-green-flat.active,
+  .button-green-flat.is-active {
+    background-color: #5DAC81C0;
+    border-color: #5DAC81C0;
+    color: #1B813E; }
+	
+	
+	
 /*
 * Base Layout Styles
 *
