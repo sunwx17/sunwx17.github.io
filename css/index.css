@@ -73,14 +73,14 @@
     clip: rect(62px, 9999px, 100px, 0);
   }
 }
-.center-word:after {
+.center-word:after:hover {
   content: attr(data-text);
   position: absolute;
   left: calc(50% - 262px);
   text-shadow: -2px 0 red;
   top: 0;
   color: white;
-  background: black;
+  /*background: black;*/
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim 2s infinite linear alternate-reverse;
@@ -151,14 +151,14 @@
     clip: rect(76px, 9999px, 29px, 0);
   }
 }
-.center-word:before {
+.center-word:before:hover {
   content: attr(data-text);
   position: absolute;
   left: calc(50% - 268px);
   text-shadow: 2px 0 blue;
   top: 0;
   color: white;
-  background: black;
+  /*background: black;*/
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   animation: noise-anim-2 3s infinite linear alternate-reverse;
