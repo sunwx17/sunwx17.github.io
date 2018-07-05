@@ -74,11 +74,7 @@
   }
 }
 
-.center-word:after{
-	display:none;
-}
-
-.center-word:after:hover {
+.center-word:hover:after {
   content: attr(data-text);
   position: absolute;
   left: calc(50% - 262px);
@@ -157,11 +153,10 @@
   }
 }
 
-.center-word:before,.center-word:after{
+.center-word:before,
+.center-word:after{
 	content: attr(data-text);
 	position: absolute;
-	width:100%;
-    left: calc(50% - 265px);
 }
 
 .center-word:hover:before {
