@@ -158,12 +158,12 @@
 }
 
 .center-word:before{
-	display:none;
+	content: attr(data-text);
+	position: absolute;
+    left: calc(50% - 265px);
 }
 
 .center-word:before:hover {
-  content: attr(data-text);
-  position: absolute;
   left: calc(50% - 268px);
   text-shadow: 2px 0 blue;
   top: 0;
